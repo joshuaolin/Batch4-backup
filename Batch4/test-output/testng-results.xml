@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T05:43:57Z" name="Default suite" finished-at="2024-04-02T05:48:23Z" duration-ms="265424">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T05:43:57Z" name="Default test" finished-at="2024-04-02T05:48:23Z" duration-ms="265424">
+      <class name="testcases2.testcase2">
+        <test-method is-config="true" signature="bakajoshuato()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:43:57Z" name="bakajoshuato" finished-at="2024-04-02T13:44:26Z" duration-ms="28588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bakajoshuato -->
+        <test-method signature="tc1()[pri:1, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:44:26Z" name="tc1" finished-at="2024-04-02T13:44:30Z" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="krustykrabs()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:44:30Z" name="krustykrabs" finished-at="2024-04-02T13:44:30Z" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krustykrabs -->
+        <test-method is-config="true" signature="bakajoshuato()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:44:30Z" name="bakajoshuato" finished-at="2024-04-02T13:44:58Z" duration-ms="27430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bakajoshuato -->
+        <test-method signature="tc2()[pri:2, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:44:58Z" name="tc2" finished-at="2024-04-02T13:45:11Z" duration-ms="13789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="krustykrabs()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:45:11Z" name="krustykrabs" finished-at="2024-04-02T13:45:12Z" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krustykrabs -->
+        <test-method is-config="true" signature="bakajoshuato()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:45:12Z" name="bakajoshuato" finished-at="2024-04-02T13:45:39Z" duration-ms="27574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bakajoshuato -->
+        <test-method signature="tc3()[pri:3, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:45:39Z" name="tc3" finished-at="2024-04-02T13:45:46Z" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="krustykrabs()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:45:46Z" name="krustykrabs" finished-at="2024-04-02T13:45:46Z" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krustykrabs -->
+        <test-method is-config="true" signature="bakajoshuato()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:45:46Z" name="bakajoshuato" finished-at="2024-04-02T13:46:14Z" duration-ms="27521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bakajoshuato -->
+        <test-method signature="tc4()[pri:4, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:46:14Z" name="tc4" finished-at="2024-04-02T13:47:38Z" duration-ms="84649" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4441001f9fa9ead036718d257c7b1d2a, executeScript {script=window.scrollBy(0,-200);, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\JOSHUA~1.OLI\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62649/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4441001f9fa9ead036718d257c7b1d2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4441001f9fa9ead036718d257c7b1d2a, executeScript {script=window.scrollBy(0,-200);, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\JOSHUA~1.OLI\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62649/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4441001f9fa9ead036718d257c7b1d2a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:468)
+	at setup2.action.sleepAndScrollWindow(action.java:126)
+	at testcases2.testcase2.tc4(testcase2.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method is-config="true" signature="krustykrabs()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:47:38Z" name="krustykrabs" finished-at="2024-04-02T13:47:38Z" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krustykrabs -->
+        <test-method is-config="true" signature="bakajoshuato()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:47:38Z" name="bakajoshuato" finished-at="2024-04-02T13:48:06Z" duration-ms="27836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bakajoshuato -->
+        <test-method signature="tc5()[pri:5, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:48:06Z" name="tc5" finished-at="2024-04-02T13:48:22Z" duration-ms="16008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method is-config="true" signature="krustykrabs()[pri:0, instance:testcases2.testcase2@6c4980d3]" started-at="2024-04-02T13:48:22Z" name="krustykrabs" finished-at="2024-04-02T13:48:23Z" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krustykrabs -->
+      </class> <!-- testcases2.testcase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
